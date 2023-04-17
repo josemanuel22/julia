@@ -23,7 +23,7 @@ being used for this purpose alone.
 module Timings
 
 using Core.Compiler: -, +, :, Vector, length, first, empty!, push!, pop!, @inline,
-    @inbounds, copy, backtrace
+    @inbounds, copy, backtrace, AbstractInterpreter
 
 # What we record for any given frame we infer during type inference.
 struct InferenceFrameInfo
