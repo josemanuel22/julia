@@ -54,7 +54,7 @@ Internal type containing the timing result for running type inference on a singl
 MethodInstance.
 """
 struct Timing
-    interpT::Type
+    interpT::DataType
     mi_info::InferenceFrameInfo
     start_time::UInt64
     cur_start_time::UInt64
