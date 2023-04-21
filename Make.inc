@@ -502,7 +502,7 @@ ifneq ($(OS), WINNT)
 JCXXFLAGS += -pedantic
 endif
 DEBUGFLAGS := -O0 -ggdb2 -DJL_DEBUG_BUILD -fstack-protector
-SHIPFLAGS := -O3 -ggdb2 -falign-functions
+SHIPFLAGS := -O0 -ggdb2 -falign-functions
 endif
 
 ifeq ($(USECLANG),1)
